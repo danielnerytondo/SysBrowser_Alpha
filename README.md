@@ -30,9 +30,3 @@ No entanto, se você estiver usando este projeto e estiver satisfeito com ele ou
 *  [.NET Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net472-web-installer) 
 *  [Microsoft Webviewer2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section) **
 
-
-
-
-## Ajudas:
-
-Na pasta `estudos` você escontra alguns códigos simples, que eu utilizei para aprender sobre as ferramentas, inclusive utilizando outras como [espeak](https://espeak.sourceforge.net/) e [pyttsx3](https://pypi.org/project/pyttsx3/)
