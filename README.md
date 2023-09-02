@@ -1,4 +1,4 @@
-# Sys Web Browser Alpha
+# Sys Web Browser Alpha - versão: 1.0.0.32
 
 # :sparkling\_heart: Apoie o projeto
 
