@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="H:\PROGRAMACAO\SysWeblurk\FONTES\Alpha Streamers\Browser1.0.0.32\bin\Debug\AlphaWebLurk.exe">
+   <Modules>
+    <Module Name="alphaweblurk.exe">
+     <Namespaces>
+      <Namespace Name="AlphaWebLurk">
+       <Types>
+        <Type Name="LoginForm1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="mutex" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2023-08-31 01:49:32Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="H:\PROGRAMACAO\SysWeblurk\FONTES\Alpha Streamers\Browser1.0.0.32" File="LoginForm1.Designer.vb" Line="8">'LoginForm1' contém o campo 'LoginForm1.mutex' que é do tipo IDisposable: 'Mutex'. Altere o método Dispose em 'LoginForm1' para chamar Dispose ou Close neste campo.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>Campos descartáveis devem ser descartados</Name>
+   <Description>Se um tipo que implementa IDisposable possuir campos que também implementam IDisposable, a implementação Dispose() do tipo encapsulante deve chamar Dispose() em cada campo descartável.</Description>
+   <Resolution Name="Default">{0} contém o campo {1} que é do tipo IDisposable: {2}. Altere o método Dispose em {0} para chamar Dispose ou Close neste campo.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Recolher Tudo</String>
+  <String Key="CheckId">Verificar ID</String>
+  <String Key="Error">Erro</String>
+  <String Key="Errors">erro(s)</String>
+  <String Key="ExpandAll">Expandir Tudo</String>
+  <String Key="Help">Ajuda</String>
+  <String Key="Line">Linha</String>
+  <String Key="Messages">mensagem(ns)</String>
+  <String Key="LocationNotStoredInPdb">[Local não armazenado em Pdb]</String>
+  <String Key="Project">Projeto</String>
+  <String Key="Resolution">Resolução</String>
+  <String Key="Rule">Regra</String>
+  <String Key="RuleFile">Arquivo de Regra</String>
+  <String Key="RuleDescription">Descrição da Regra</String>
+  <String Key="Source">Origem</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Destino</String>
+  <String Key="Warning">Aviso</String>
+  <String Key="Warnings">aviso(s)</String>
+  <String Key="ReportTitle">Relatório de Análise de Código</String>
+ </Localized>
+</FxCopReport>
