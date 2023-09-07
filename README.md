@@ -18,14 +18,15 @@ No entanto, se você estiver usando este projeto e estiver satisfeito com ele ou
 ## Como executar:
 
 
-### **1. Faça Download do aplicativo na sua máquina:**
+### **1. Faça Download do aplicativo na sua máquina, escolhe entre a Versão com instalador ou a versão Portable:**
 
-* [Versão 1.0.0.32p](http://alphastreamers.com/weblurk)
-* Crie uma pasta no seu computador para esse programa, recomendo colocar o nome **Sys_weblurk**
+* [Baixar Versão com instalador](http://alphastreamers.com/weblurk)
+* [Baixar Versão Portable](https://github.com/danielnerytondo/SysBrowser_Alpha/releases/tag/SysBrowserWL_Alpha_V1.0.0.32)
+* Caso escolha a versao Portable, crie uma pasta no seu computador para esse programa, recomendo colocar o nome **Sys_weblurk**
 * Descompacte o arquivo baixado na pasta criada
 * Abra a pasta  e seleciona `Alphaweblurk10032p.exe` e pressione `enter` para execultar
 
-### **2. Caso seja necessario Instale as ferramentas necessarias.**
+### **2. Caso seja necessário Instale as ferramentas necessárias.**
 
 *  [.NET Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net472-web-installer) 
 *  [Microsoft Webviewer2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section) **
